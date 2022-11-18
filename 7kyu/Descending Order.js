@@ -1,7 +1,3 @@
-// Your task is to make a function that can take any non-negative integer as 
-// an argument and return it with its digits in descending order.
-// Essentially, rearrange the digits to create the highest possible number.
-
 function descendingOrder(n){
   let output = []
   sNumber = n.toString();
@@ -13,5 +9,5 @@ function descendingOrder(n){
   output.sort().reverse();
   let num = +output.join("")
   return num;
-  
+
   }
